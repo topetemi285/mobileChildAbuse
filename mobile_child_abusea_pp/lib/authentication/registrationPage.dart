@@ -94,15 +94,13 @@ class _RegisterState extends State<Register> {
                 ),
               ),
 
-
               RadioListTile(
-                title:Text("Male"),
-              ),
+                    title:Text("Male"),
+                  ),
               RadioListTile(
-                  title:Text("Female")
-              ),
-
-
+                      title:Text("Female")
+                  ),
+        
               Padding(
                 padding:EdgeInsets.all(20),
                 child:Container(
